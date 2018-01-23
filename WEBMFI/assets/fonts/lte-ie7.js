@@ -395,7 +395,7 @@ window.onload = function() {
 			'clip-airplane' : '&#xe182;',
 			'clip-tree-2' : '&#xe183;',
 			'clip-sun' : '&#xe184;',
-			'clip-bubble-paperclip' : '&#xe185;'
+			'clip-bubble-paperclip': '&#xe185;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, c, el;

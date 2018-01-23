@@ -7,7 +7,7 @@
 <!--<![endif]-->
 <!-- start: HEAD -->
 <head>
-    <title>Clip-One - Responsive Admin Template</title>
+    <title>Cheirpheap Finance Plc</title>
     <!-- start: META -->
     <meta charset="utf-8" />
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
@@ -35,7 +35,7 @@
     <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
     <link rel="stylesheet" href="assets/plugins/fullcalendar/fullcalendar/fullcalendar.css">
     <!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="~/cheirpheap.ico" />
 </head>
 <!-- end: HEAD -->
 <!-- start: BODY -->
@@ -51,8 +51,8 @@
                 </button>
                 <!-- end: RESPONSIVE MENU TOGGLER -->
                 <!-- start: LOGO -->
-                <a class="navbar-brand" href="index.html">
-                    CLIP<i class="clip-clip"></i>ONE
+                <a class="navbar-brand" href="">
+                    <img src="~/cheirpheap.png" style="position: absolute; top:1px; left:10px; height: 46px;"/>
                 </a>
                 <!-- end: LOGO -->
             </div>
@@ -63,36 +63,24 @@
                     <li class="dropdown current-user">
                         <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" data-close-others="true" href="#">
                             <img src="assets/images/avatar-1-small.jpg" class="circle-img" alt="">
-                            <span class="username">Peter Clark</span>
+                            <span class="username">admin</span>
                             <i class="clip-chevron-down"></i>
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="pages_user_profile.html">
+                                <a href="">
                                     <i class="clip-user-2"></i>
                                     &nbsp;My Profile
                                 </a>
                             </li>
                             <li>
-                                <a href="pages_calendar.html">
-                                    <i class="clip-calendar"></i>
-                                    &nbsp;My Calendar
-                                </a>
-                            <li>
-                                <a href="pages_messages.html">
-                                    <i class="clip-bubble-4"></i>
-                                    &nbsp;My Messages (3)
-                                </a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
-                                <a href="utility_lock_screen.html">
+                                <a href="">
                                     <i class="clip-locked"></i>
                                     &nbsp;Lock Screen
                                 </a>
                             </li>
                             <li>
-                                <a href="login_example1.html">
+                                <a href="">
                                     <i class="clip-exit"></i>
                                     &nbsp;Log Out
                                 </a>
@@ -121,14 +109,14 @@
                 <!-- start: MAIN NAVIGATION MENU -->
                 <ul class="main-navigation-menu">
                     <li class="active open">
-                        <a href="index.html">
+                        <a href="">
                             <i class="clip-home-3"></i>
-                            <span class="title"> Dashboard </span><span class="selected"></span>
+                            <span class="title"> Home </span><span class="selected"></span>
                         </a>
                     </li>
                     <li>
                         <a href="javascript:;" class="active">
-                            <i class="clip-folder"></i>
+                            <i class="clip-file-powerpoint"></i>
                             <span class="title"> Reports </span>
                             <i class="icon-arrow"></i>
                         </a>
@@ -139,12 +127,12 @@
                                 </a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="#">
+                                        <a href="">
                                             Balance Sheet Detail
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="">
                                             Income Statement
                                         </a>
                                     </li>
@@ -156,17 +144,17 @@
                                 </a>
                                 <ul class="sub-menu">
                                     <li>
-                                        <a href="#">
+                                        <a href="">
                                             Loan Outstanding
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="">
                                             Loan Disbursement
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="">
                                             Credit Management
                                         </a>
                                     </li>
@@ -181,34 +169,6 @@
         </div>
         <!-- start: PAGE -->
         <div class="main-content">
-            <!-- start: PANEL CONFIGURATION MODAL FORM -->
-            <div class="modal fade" id="panel-config" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                                &times;
-                            </button>
-                            <h4 class="modal-title">Panel Configuration</h4>
-                        </div>
-                        <div class="modal-body">
-                            Here will be a configuration form
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">
-                                Close
-                            </button>
-                            <button type="button" class="btn btn-primary">
-                                Save changes
-                            </button>
-                        </div>
-                    </div>
-                    <!-- /.modal-content -->
-                </div>
-                <!-- /.modal-dialog -->
-            </div>
-            <!-- /.modal -->
-            <!-- end: SPANEL CONFIGURATION MODAL FORM -->
             <div class="container">
                 <!-- start: PAGE HEADER -->
                 <div class="row">
@@ -217,27 +177,11 @@
                         <ol class="breadcrumb">
                             <li>
                                 <i class="clip-home-3"></i>
-                                <a href="#">
+                                <a href="">
                                     Home
                                 </a>
                             </li>
-                            <li class="active">
-                                Dashboard
-                            </li>
-                            <li class="search-box">
-                                <form class="sidebar-search">
-                                    <div class="form-group">
-                                        <input type="text" placeholder="Start Searching...">
-                                        <button class="submit">
-                                            <i class="clip-search-3"></i>
-                                        </button>
-                                    </div>
-                                </form>
-                            </li>
                         </ol>
-                        <div class="page-header">
-                            <h1>Dashboard <small>overview &amp; stats </small></h1>
-                        </div>
                         <!-- end: PAGE TITLE & BREADCRUMB -->
                     </div>
                 </div>
@@ -253,37 +197,13 @@
     <!-- start: FOOTER -->
     <div class="footer clearfix">
         <div class="footer-inner">
-            2014 &copy; clip-one by cliptheme.
+            2018 &copy; reports helper by cheirpheap finance plc.
         </div>
         <div class="footer-items">
             <span class="go-top"><i class="clip-chevron-up"></i></span>
         </div>
     </div>
     <!-- end: FOOTER -->
-    <div id="event-management" class="modal fade" tabindex="-1" data-width="760" style="display: none;">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                        &times;
-                    </button>
-                    <h4 class="modal-title">Event Management</h4>
-                </div>
-                <div class="modal-body"></div>
-                <div class="modal-footer">
-                    <button type="button" data-dismiss="modal" class="btn btn-light-grey">
-                        Close
-                    </button>
-                    <button type="button" class="btn btn-danger remove-event no-display">
-                        <i class='fa fa-trash-o'></i> Delete Event
-                    </button>
-                    <button type='submit' class='btn btn-success save-event'>
-                        <i class='fa fa-check'></i> Save
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- start: MAIN JAVASCRIPTS -->
     <!--[if lt IE 9]>
     <script src="assets/plugins/respond.min.js"></script>
